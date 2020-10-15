@@ -75,7 +75,7 @@ class LocationScreen extends StatelessWidget {
             },
           );
         },
-        separatorBuilder: null,
-        itemCount: null);
+        separatorBuilder: (BuildContext context, int index) => Divider(),
+        itemCount: results.length);
   }
 }
